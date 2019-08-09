@@ -1,0 +1,26 @@
+Enviorment requirement
+python 3.6
+pytorch 1.4 --gpu
+scikit learn 1.2 
+pynvml 
+
+----
+
+trajectory prediction:
+main.py
+after run main.py, you will get a output document like slurm.output
+
+---
+datasets
+1.
+2. data_split.py is for spliting origin data into train,validation,test datasets
+
+---
+lane attention.py: code for lane-attention 
+context attention.py: code for context-attention
+soft attention.py: code for soft-attention
+baseline.py: code for the base structure without attention
+
+---
+result show
+rmse_compare.py
